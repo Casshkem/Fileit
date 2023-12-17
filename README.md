@@ -13,6 +13,21 @@ pnpm dev
 # or
 bun dev
 ```
+```
+mkdir backend
+cd backend
+npm init -y
+
+npm install express multer body-parser fs pdf-parse docxtemplater
+
+npx create-next-app frontend
+cd frontend
+
+npm install react-dropzone axios
+
+npm run dev
+
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
